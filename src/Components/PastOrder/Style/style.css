@@ -1,0 +1,30 @@
+#past-order-component{
+    width: 100%;
+    height: 100vh;
+}
+#past-order-list{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}
+
+#table-list{
+ flex-basis: 97%;
+ display: inline-block;
+ overflow: scroll;
+}
+#sidebar-list{
+    flex-basis: 3%;
+    height: 100%;
+    background-color: var(--logo-color);
+}
+
+.past-order-table{
+    width: 100%;
+    table-layout: fixed;
+    font-size: 0.7em;
+}
+#product-table-section{
+    display: inline-block;
+    overflow: scroll;
+}

@@ -1,0 +1,23 @@
+#side-navbar{
+    width: 100%;
+    height: 622px;
+    height: 100%;
+    background-color: var(--logo-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#side-navbar img{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 30px;
+    padding: "10px 100%"
+}
+
+#side-navbar img:hover{
+    width: 18px;
+    height: 18px;
+    background-color: white;
+}
